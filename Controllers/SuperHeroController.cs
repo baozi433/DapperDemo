@@ -11,7 +11,7 @@ namespace DapperDemo.Controllers
     public class SuperHeroController : ControllerBase
     {
         private readonly IConfiguration _configuration;
-
+        
         public SuperHeroController(IConfiguration configuration)
         {
             _configuration = configuration;
